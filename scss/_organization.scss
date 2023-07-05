@@ -1,0 +1,61 @@
+.organization {
+  background-color: #1f2029;
+  padding: 5.7rem 11.7rem 0 4.3rem;
+  color: white;
+  
+  .black {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 15rem;
+    transform: translateX(-5rem);
+  }
+  
+  .organization-text {
+    padding-bottom: 6.1rem;
+    h2 {
+      max-width: 54.6rem;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 120%;
+    }
+
+    p {
+      max-width: 549.75px;
+      margin-top: 1.8rem;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 120%;
+    }
+
+    .organization-card {
+      display: flex;
+      margin-top: 3rem;
+
+      .cards {
+        display: flex;
+        row-gap: 1.3rem;
+        align-items: start;
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+.cards {
+  img {
+    padding: 0.5rem;
+    border: 1px solid gray;
+  }
+  
+  h4 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 120%;
+  }
+
+  p{
+    width: 26.5rem;
+  }
+}
+

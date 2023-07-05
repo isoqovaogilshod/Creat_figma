@@ -1,0 +1,45 @@
+.expenses {
+  padding: 11.2rem 0;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 4rem;
+
+  h2 {
+    font-size: 48px;
+    max-width: 68.6rem;
+    font-weight: 700;
+    line-height: 120%;
+  }
+
+  p {
+    width: 73rem;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+    max-width: 73.3rem;
+    margin-top: 2rem;
+  }
+
+  .expenses-cards {
+    display: flex;
+    margin-top: 3rem;
+
+    img {
+      margin-top: 1rem;
+    }
+    h4 {
+      margin-top: 1rem;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 140%;
+    }
+
+    p {
+      width: 29rem;
+    }
+  }
+}
+
+.expenses-img {
+  transform: translateX(5rem);
+}

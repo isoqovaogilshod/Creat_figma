@@ -1,0 +1,51 @@
+.download {
+  background-color: #007aff;
+  color: white;
+  padding: 9.6rem 8.5rem;
+  h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+  }
+
+  p {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 3.2rem;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+    max-width: 58.6rem;
+  }
+
+  form {
+    text-align: center;
+    margin-top: 3.2rem;
+
+    input[type="email"] {
+      padding: 1.6rem;
+      width: 49.5rem;
+      border-radius: 0.4rem;
+      border: none;
+      margin-right: 2.1rem;
+    }
+
+    input[type="button"] {
+      padding: 1.6rem 2.8rem;
+      background-color: #2b2828;
+      color: white;
+      border: none;
+      border-radius: 1rem;
+    }
+  }
+
+  h5 {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 120%;
+    margin-top: 2.1rem;
+  }
+}
